@@ -7,9 +7,9 @@
         <groupId>com.vannsha</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>config</artifactId>
+    <artifactId>config-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>config</name>
+    <name>config-service</name>
     <description>Server configuration</description>
 
     <dependencies>
@@ -45,9 +45,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <finalName>config</finalName>
-                </configuration>
             </plugin>
         </plugins>
     </build>
