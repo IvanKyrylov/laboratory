@@ -1,0 +1,14 @@
+zuul:
+  ignoredServices: '*'
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+  routes:
+    spring-cloud-eureka-client:
+      path: /test/**
+      service-id: spring-cloud-eureka-client
+#      stripPrefix: false
+  add-proxy-headers: true
+
+server:
+  port: 4000
