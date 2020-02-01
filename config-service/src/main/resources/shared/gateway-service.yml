@@ -12,3 +12,4 @@ zuul:
 
 server:
   port: 4000
+
